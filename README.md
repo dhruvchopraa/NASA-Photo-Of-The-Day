@@ -32,10 +32,7 @@ You can use the following commands to seed the database with some sample users a
 Import data =>
 npm run data:import
 ```
-### Put NASA API Key
 
-update the NASA.js file in frontend -> src -> screens -> NASA.js 
-by replacing 'YOUR_NASA_API_KEY' with the NASA API Key obtained from https://api.nasa.gov/
 
 ### Sample User Logins:
 
