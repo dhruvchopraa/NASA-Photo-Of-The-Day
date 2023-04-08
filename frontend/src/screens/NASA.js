@@ -6,7 +6,7 @@ class NASA extends Component {
   };
 
   componentDidMount() {
-    fetch(`https://api.nasa.gov/planetary/apod?api_key=YOUR_NASA_API_KEY`)
+    fetch(`https://api.nasa.gov/planetary/apod?api_key=oYivb2dk1pRhINS009UQ4r0vMmbHVbcy5dZLCaFN`)
       .then(response => response.json())
       .then(json => {
         this.setState({ photo: json });
