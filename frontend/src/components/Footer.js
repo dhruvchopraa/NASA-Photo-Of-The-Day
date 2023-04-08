@@ -1,6 +1,5 @@
 import React from 'react'
-import { Container, Row, Col} from 'react-bootstrap'
-import styled from 'styled-components'
+
 
 const Footer = () => {
     return (
