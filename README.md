@@ -1,6 +1,6 @@
 ## NASA Photo of the Day MERN Website
 
-This repoistory focuses on building a SPA (Single Page Application) which shows the NASA Astronomy Photo of the Day of the browser's current date and time.
+This repository focuses on building a SPA (Single Page Application) which shows the NASA Astronomy Photo of the Day of the browser's current date and time.
 This is a MERN Stack based project and to run this on your local machine, the following steps have to be followed.
 ### Env Variables
 Create a .env file in the root directory and add the following
