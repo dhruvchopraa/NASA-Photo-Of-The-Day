@@ -12,29 +12,34 @@ JWT_SECRET = 'abc123'
 ```
 
 ### Install Dependencies (frontend & backend)
-npm install
+```
+npm install 
 cd frontend
 npm install
-
+```
 ### Run
 ```
-# Run frontend (:3000) & backend (:5000)
+Run frontend (:3000) & backend (:5000) =>
 npm run dev
 
-# Run backend only
+Run backend only =>
 npm run server
 ```
 
 ### Seed Database
 You can use the following commands to seed the database with some sample users and products as well as destroy all data
 ```
-# Import data
+Import data =>
 npm run data:import
 ```
+### Put NASA API Key
+
+update the NASA.js file in frontend -> src -> screens -> NASA.js 
+by replacing 'YOUR_NASA_API_KEY' with the NASA API Key obtained from https://api.nasa.gov/
+
+### Sample User Logins:
 
 ```
-Sample User Logins:
-
 admin@example.com (Admin)
 123456
 
@@ -43,3 +48,4 @@ john@example.com (John Doe)
 
 jane@example.com (Jane Doe)
 123456
+```
