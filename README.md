@@ -17,6 +17,9 @@ npm install
 cd frontend
 npm install
 ```
+### Update
+You can just run 'npm install' (in the root directory) instead of going into the frontend as all frontend files are copied to the root directory in the latest commit
+
 ### Run
 ```
 Run frontend (:3000) & backend (:5000) =>
